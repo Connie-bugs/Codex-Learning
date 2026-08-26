@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OBSIDIAN INDEX — Rick Owens、Balenciaga 与相邻风格的时尚资讯索引。">
+  <title>OBSIDIAN INDEX / Fashion Intelligence</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Obsidian Index 首页"><span>O</span>BSIDIAN<br><em>INDEX</em></a>
+    <nav id="mainNav" class="main-nav" aria-label="主导航">
+      <a href="#signals">Signals <span>01</span></a>
+      <a href="#method">Method <span>02</span></a>
+      <a href="#about">About <span>03</span></a>
+    </nav>
+    <button id="menuButton" class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">MENU <span>+</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-kicker"><span class="status-dot"></span> LIVE / 26.08.2026 <span class="kicker-line"></span> VOL. 001</div>
+      <h1 id="heroTitle">WHAT<br><span>REMAINS</span></h1>
+      <div class="hero-bottom">
+        <p>关于黑色、身体和<br>下一种制服的持续记录。</p>
+        <div class="hero-mark" aria-hidden="true">◎</div>
+        <p class="hero-note">CURATED INTELLIGENCE<br>FOR THE EDGE OF FASHION</p>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="站点状态">
+      <span>FIELD NOTES / RICK OWENS + BALENCIAGA + ADJACENT</span><span>BLACK IS A LANGUAGE</span><span>UPDATED WHEN IT MATTERS</span>
+    </section>
+
+    <section id="signals" class="signals-section" aria-labelledby="signalsTitle">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / LATEST SIGNALS</p><h2 id="signalsTitle">最新信号<span class="slash">/</span></h2></div>
+        <div class="heading-aside"><span id="resultCount">07</span><small>INDEXED ITEMS</small></div>
+      </div>
+      <div class="controls">
+        <div class="filters" role="group" aria-label="按品牌筛选">
+          <button class="active" data-filter="all">全部</button>
+          <button data-filter="rick-owens">Rick Owens</button>
+          <button data-filter="balenciaga">Balenciaga</button>
+          <button data-filter="adjacent">Adjacent</button>
+        </div>
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜索关键词 / 品牌" aria-label="搜索资讯"></label>
+      </div>
+      <div id="newsGrid" class="news-grid"></div>
+    </section>
+
+    <section id="method" class="method-section">
+      <div class="method-symbol">◒</div>
+      <div><p class="eyebrow">02 / METHOD</p><h2>不追逐噪音。<br><span>只留下有重量的东西。</span></h2></div>
+      <p>主页默认收录 7 条，按来源可核验的时间倒序排列。官方发布、官方档案、媒体观察与编辑判断使用不同标签；编辑判断只做交叉阅读，不伪装成品牌原话。</p>
+    </section>
+  </main>
+
+  <footer id="about" class="site-footer">
+    <div><a class="wordmark" href="#top"><span>O</span>BSIDIAN <em>INDEX</em></a><p>AN EDITORIAL SIGNAL, NOT A SHOP.</p></div>
+    <div class="footer-links"><a href="#signals">LATEST</a><a href="#method">METHOD</a><a href="mailto:signal@obsidian-index.example">CONTACT</a></div>
+    <div class="footer-id">© 2026 / 001<br>MADE IN THE DARK</div>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
